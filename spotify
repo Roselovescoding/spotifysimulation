@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>  
+<title>spotify</title>
+</head>
+<body>
+    <form>
+    <label for="fname">favourite genre:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">favourite singer:</label><br>
+    <input type="text" id="lname" name="lname">
+  </form><ul>
+    <li><a href="default.asp">Home</a></li>
+    <li><a href="news.asp">New releases</a></li>
+    <li><a href="contact.asp">Contact</a></li>
+    <li><a href="about.asp">About</a></li> 
+    <li><a href="about.asp">spotify premium</a></li>
+  </ul>
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: palevioletred;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+          background-color: #111;
+        }
+        h1{
+            color:green;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
+        }
+       
+        
+          </style>
+        
+<h1>what do you want to listen to?</h1>
+<p>listen to more than 500 million songs ad free!.</p>
+
+</body>
+
+<img src="https://techcrunch.com/wp-content/uploads/2021/03/Spotify-Mix-Image-2.jpg" alt="spotify">
+
+ 
+</html>
